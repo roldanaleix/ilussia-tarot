@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>318316028823-hcq8ggub8hnn23akbd39n9uqlbh9kaas.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.318316028823-hcq8ggub8hnn23akbd39n9uqlbh9kaas</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>318316028823-kc9hunk00lee2ce2grfoitquetjaga5t.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCZlqwbdH-UFYoaCWCJdMZJOlopBT8_WA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>318316028823</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.ilussiaTarot</string>
+	<key>PROJECT_ID</key>
+	<string>ilussia-tarots</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ilussia-tarots.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:318316028823:ios:37d723b9042a4c10319ad2</string>
+</dict>
+</plist>

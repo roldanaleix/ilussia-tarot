@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "318316028823",
+    "project_id": "ilussia-tarots",
+    "storage_bucket": "ilussia-tarots.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318316028823:android:ef15d50a1e23c53d319ad2",
+        "android_client_info": {
+          "package_name": "com.example.ilussia_tarot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318316028823-ek7j1a8r8gcnkbncb0vld8sq2s7vpt6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ilussia_tarot",
+            "certificate_hash": "4da6e3115907a044505645dd01fc3eb346665d84"
+          }
+        },
+        {
+          "client_id": "318316028823-lfah2772d4q5q6ql6u4edp9ugb4na5ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVVU_2jHw0b4sBeLSehNvZ8ezwfkBBWF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318316028823-lfah2772d4q5q6ql6u4edp9ugb4na5ul.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318316028823-hcq8ggub8hnn23akbd39n9uqlbh9kaas.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ilussiaTarot"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318316028823:android:d62171334c2dac06319ad2",
+        "android_client_info": {
+          "package_name": "com.ilussia.tarot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318316028823-kc9hunk00lee2ce2grfoitquetjaga5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilussia.tarot",
+            "certificate_hash": "4da6e3115907a044505645dd01fc3eb346665d84"
+          }
+        },
+        {
+          "client_id": "318316028823-lfah2772d4q5q6ql6u4edp9ugb4na5ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVVU_2jHw0b4sBeLSehNvZ8ezwfkBBWF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318316028823-lfah2772d4q5q6ql6u4edp9ugb4na5ul.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318316028823-hcq8ggub8hnn23akbd39n9uqlbh9kaas.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ilussiaTarot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
