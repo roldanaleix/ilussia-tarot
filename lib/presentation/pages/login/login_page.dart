@@ -22,7 +22,6 @@ class _LoginPageState extends State<LoginPage> {
       if (user == null) {
         setState(() => _error = 'Inicio cancelado.');
       }
-      // Si hay usuario, StreamBuilder en MyApp redirige a Home automáticamente
     } catch (e) {
       setState(() => _error = 'Error al iniciar sesión: $e');
     } finally {

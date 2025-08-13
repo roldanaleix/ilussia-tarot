@@ -7,25 +7,15 @@ class AuthService {
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  /// Mantengo **método** para que coincida con tu app.dart (con paréntesis).
   Stream<User?> authStateChanges() => _auth.authStateChanges();
 
-  /// Login con Google para `google_sign_in: ^7.1.1`
   Future<User?> signInWithGoogle() async {
     final signIn = GoogleSignIn.instance;
-
-    // Si en Android te lo pide, descomenta y pon tu clientId web:
-    // await signIn.initialize(serverClientId: 'TU_CLIENT_ID_WEB');
-
-    // Flujo interactivo v7 (reemplaza al antiguo signIn())
-    final account = await signIn.authenticate(); // cancelado
-
-    // En v7, el idToken se obtiene así:
-    final googleAuth = account.authentication; // trae idToken
+    final account = await signIn.authenticate(); 
+    final googleAuth = account.authentication; 
 
     final credential = GoogleAuthProvider.credential(
-      idToken: googleAuth.idToken, // Para Firebase Auth basta el idToken
-      // accessToken: (no es necesario para autenticar con Firebase)
+      idToken: googleAuth.idToken, 
     );
 
     final userCred = await _auth.signInWithCredential(credential);
