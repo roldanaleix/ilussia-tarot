@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ilussia_tarot/services/supabase_service.dart';
 import '../../../services/auth_service.dart';
 
 class LoginPage extends StatefulWidget {
@@ -11,6 +12,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   bool _loading = false;
   String? _error;
+  SupabaseService _supabaseService = SupabaseService();
 
   Future<void> _handleGoogle() async {
     setState(() {
@@ -21,6 +23,16 @@ class _LoginPageState extends State<LoginPage> {
       final user = await AuthService.instance.signInWithGoogle();
       if (user == null) {
         setState(() => _error = 'Inicio cancelado.');
+      }
+
+      if (!await _supabaseService.userExists(user!.uid)) {
+        _supabaseService.createUser(
+          uid: user.uid,
+          email: user.email!,
+          displayName: user.displayName,
+          phoneNumber: user.phoneNumber,
+          photoUrl: user.photoURL,
+        );
       }
     } catch (e) {
       setState(() => _error = 'Error al iniciar sesión: $e');
